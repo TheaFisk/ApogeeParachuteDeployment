@@ -36,7 +36,7 @@ The following resources were helpful while developing this project:
 ---
 
 # AI Disclosure
-I used AI as a development partner during this project. I primarily used it to help structure the flight computer logic, review embedded programming practices, and explore safe and reliable methods for detecting rocket apogee using altitude data.
+I used Claude AI as a development partner during this project. I primarily used it to help structure the flight computer logic, review embedded programming practices, and explore safe and reliable methods for detecting rocket apogee using altitude data.
 
 In one specific part of the project, I asked for assistance designing the apogee detection algorithm that compares current altitude readings to previous values while tracking maximum altitude. The AI suggested using a threshold-based drop detection method combined with continuous altitude tracking. I did not copy the implementation verbatim. I adapted the approach to include configurable thresholds, integrated it into my event logging system, and added additional logic to prevent false triggers before launch detection.
 
